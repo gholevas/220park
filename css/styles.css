@@ -1,6 +1,9 @@
 
 html, body { height: 100% }
-div{
-  height: 100%;
-  width: 100%;
+
+.scroll-wrapper {
+  -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+
+  /* important:  dimensions or positioning here! */
 }
