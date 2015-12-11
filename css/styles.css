@@ -46,10 +46,14 @@ a:hover {
  * Base structure
  */
 
+iframe{
+  width: 100%;
+  height: 100%;
+}
 html,
 body {
   height: 100%;
-  background-color: #69d0f4;
+  background-color: #fff;
 }
 body {
   color: #fff;
